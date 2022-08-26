@@ -1,0 +1,25 @@
+.row {
+   font-size: 14px;
+   cursor: pointer;
+   padding: 2px 0;
+   /* display: block;
+   width: 600px; */
+   display: flex;
+   align-items: flex-end;
+   color: #444;
+   z-index: -1;
+}
+
+.children {
+   overflow: hidden;
+   height: auto;
+   transition: height 0.2s ease-in;
+}
+.children.collapsed {
+   height: 0;
+}
+
+h4 {
+   margin-left: 10px;
+   display: inline-block;
+}
